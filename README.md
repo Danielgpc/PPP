@@ -1,4 +1,4 @@
-# PPP (Programming principles and practice using C++)
+# PPP (Programming principles and practice using C++) Third editon
 
 This repository is disposable for holding the answers to the exercises, practice and "Try this" sections from the Bjarne Stroustrup's book Programming Principles and practice using C++ (third edition).
 
