@@ -1,13 +1,17 @@
-// Exercise 3.12 (page 81)
+// Exercise 3.14 (page 81)
 
 #include "PPPheaders.h"
 
 int main()
 {
+    cout << "Enter the number: ";
+    int n;
+    cin >> n;
+    
     vector<int> primes;
     primes.push_back(2);
 
-    for (int i = 3; i < 101; i++)
+    for (int i = 3; i < n + 1; i++)
     {
         bool is_prime = true;
         for (int prime : primes)
@@ -30,7 +34,4 @@ int main()
     {
         cout << '\t' << primes[i] << '\n';
     }
-    
-    
-    return 0;
 }
